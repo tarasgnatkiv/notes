@@ -1,0 +1,31 @@
+
+.list {
+	width: 25%;
+	padding: 5px;
+	overflow: auto;
+	height: calc(100vh - 134px);
+	border-right: 2px solid #ebe9ea;
+}
+
+.list::-webkit-scrollbar {
+	display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.list {
+ 	-ms-overflow-style: none;  /* IE and Edge */
+ 	scrollbar-width: none;  /* Firefox */
+}
+
+.table {
+	width: 100%;
+	border: none;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+
+
+
+

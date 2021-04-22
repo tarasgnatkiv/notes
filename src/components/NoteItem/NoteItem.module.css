@@ -1,0 +1,23 @@
+.noteItem {
+	padding: 20px;
+	width: 75%;
+}
+
+.noteItemEdit {
+	padding: 20px;
+	width: 100%;
+}
+
+.noteItem > div, .noteItemEdit > div {
+	text-align: center;
+	font-size: 15px;
+	opacity: 0.7;
+}
+
+.noteItem > textarea, .noteItemEdit > textarea {
+	width: 100%;
+	height: 100%;
+	margin-top: 20px;
+	font-size: 17px;
+	line-height: 28px;
+}

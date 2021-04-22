@@ -1,0 +1,14 @@
+.searchContainer {
+	display: flex;
+	background-color: inherit;
+	border: 1px #e2e3e7 solid;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+.searchContainer input {
+	margin-left: 15px;
+	background-color: inherit;
+	width: 100%;
+	font-size: 15px;
+}

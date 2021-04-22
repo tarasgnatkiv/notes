@@ -1,0 +1,112 @@
+.header {
+	display: flex;
+	border-bottom: 2px solid #ebe9ea;
+}
+
+.headerLeft {
+	padding: 5px 30px;
+	width: 25%;
+	background-color: #f6f4f7;
+	border-right: 2px solid #ebe9ea;
+}
+
+.headerLeft button, .headerRight button {
+   background-color: inherit;
+	padding: 5px;
+	border: 2px #f6f4f7 solid;
+	border-radius: 10px;
+}
+
+.headerLeft button:hover, .headerRight button:hover,
+.headerLeft button:focus, .headerRight button:focus {
+	border: 2px #e2e3e7 solid;
+}
+
+.headerLeft img, .headerRight img {
+	width: 25px;
+}
+
+.delete {
+	float: right;
+}
+
+
+.headerRight {
+	padding: 5px 30px;
+	width: 75%;
+	background-color: #f6f4f7;
+	display: flex;
+}
+
+.shareBody {
+	margin-left: auto;
+	position: relative;
+}
+
+.shareBtn {
+	margin-right: 20px;
+}
+
+
+.dropdown {
+	position: absolute;
+	top: 40px;
+	left: 0;
+	display: none;
+	/* border: 1px black solid; */
+}
+
+.shareBtn:hover~.dropdown,
+.shareBtn:focus~.dropdown,
+.dropdown:hover {
+	display: block;
+}
+
+.dropdownList {
+	padding: 5px;
+	border: 1px #b6b7bb solid;
+	border-radius: 10px;
+	background-color: #e2e3e7;
+}
+
+
+.dropdownList li {
+	padding: 18px 30px 18px 10px;
+	height: 30px;
+	font-size: 15px;
+	display: flex;
+   align-items: center;
+	border-radius: 10px;
+}
+
+.dropdownList li:last-child {
+	position: relative;
+	margin-top: 5px;
+}
+
+.dropdownList li:last-child::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 1px;
+	background-color: #000;
+	margin: -3px auto;
+	display: block;
+}
+
+.dropdownList li:hover {
+	background-color: #f8cb54;
+	cursor: pointer;
+}
+
+.dropdownList img {
+	width: 30px;
+	margin-right: 10px;
+}
+
+
+
+
